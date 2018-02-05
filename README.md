@@ -5,36 +5,36 @@
 
 #### **** Algorithm steps for K Mean Clustering:<br />
 
-Step 0: Open the input file<br />
-     0.1: K, numRow, numCol numPts- get from input file.<br />
-     0.2: imageArray- Dynamically allocate a 2-D arrays, size numRows X numCols.<br />
-     0.3: pointSet- Dynamically allocate the point set, size of numPts<br />
-     0.4: Kcentroids[K]- Dynamically allocate the K centroids struct.<br />
+**Step 0:** Open the input file<br />
+     **0.1:** K, numRow, numCol numPts- get from input file.<br />
+     **0.2:** imageArray- Dynamically allocate a 2-D arrays, size numRows X numCols.<br />
+     **0.3:** pointSet- Dynamically allocate the point set, size of numPts<br />
+     **0.4:** Kcentroids[K]- Dynamically allocate the K centroids struct.<br />
 
-Step 1: call loadPointSet<br />
+**Step 1:** call loadPointSet<br />
 
-Step 2: call assignLabel<br />
+**Step 2:** call assignLabel<br />
 
-Step 3: call mapPoint2Image<br />
+**Step 3:** call mapPoint2Image<br />
 
-Step 4: call displayImage<br />
+**Step 4:** call displayImage<br />
 
-Step 5: Go thru the entire pointSet struct array to compute the centroids of the K clusters. Store  <br />
+**Step 5:** Go thru the entire pointSet struct array to compute the centroids of the K clusters. Store  <br />
             the centroids in each Kcentroids[i], i from 1 to K.<br />
 
-Step 6: for each point, p, in the pointSet array compute the distance, dist(p,ci), from p to the  <br />
+**Step 6:** for each point, p, in the pointSet array compute the distance, dist(p,ci), from p to the  <br />
             centroids of each Kcentroids[i], i = 1 to K<br />
-     6.1: min_i <-- determine which dist(p,ci) is minimum<br />
-     6.2: if min_i is not the same as p's old label change p's label to min_i and set changeLabel to <br />
+     **6.1:** min_i <-- determine which dist(p,ci) is minimum<br />
+     **6.2:** if min_i is not the same as p's old label change p's label to min_i and set changeLabel to <br />
 true<br />
 
-Step 7: repeat step 6 until all points in pointSet are process.<br />
+**Step 7:** repeat step 6 until all points in pointSet are process.<br />
  
-Step 8: repeat step 3 to step 7 until no point changes its label.<br />
+**Step 8:** repeat step 3 to step 7 until no point changes its label.<br />
 
-Step 9: Output the info of pointSet to Output-1 file.<br />
+**Step 9:** Output the info of pointSet to Output-1 file.<br />
  
-### Input<br />
+### INPUT<br />
 4<br />
 90<br />
 80 80<br />
@@ -129,7 +129,7 @@ Step 9: Output the info of pointSet to Output-1 file.<br />
 65 43<br />
 63 24<br />
 
-### Output<br />
+### OUTPUT<br />
 18 58 1<br />
 21 52 1<br />
 19 46 1<br />
