@@ -1,9 +1,9 @@
 # 4-K-Mean-Clustering<br />
-CSC 323-32: Project 4 <K Mean Clustering> (C++)<br />
-Preston Peck<br />
-Due date: Nov. 1, 2016 <br />
+### CSC 323-32: Project 4 <K Mean Clustering> (C++)<br />
+### Preston Peck<br />
+### Due date: Nov. 1, 2016 <br />
 
-**** Algorithm steps for K Mean Clustering:<br />
+#### **** Algorithm steps for K Mean Clustering:<br />
 
 Step 0: Open the input file<br />
      0.1: K, numRow, numCol numPts- get from input file.<br />
@@ -34,7 +34,7 @@ Step 8: repeat step 3 to step 7 until no point changes its label.<br />
 
 Step 9: Output the info of pointSet to Output-1 file.<br />
  
-Input<br />
+### Input<br />
 4<br />
 90<br />
 80 80<br />
@@ -129,7 +129,7 @@ Input<br />
 65 43<br />
 63 24<br />
 
-Output<br />
+### Output<br />
 18 58 1<br />
 21 52 1<br />
 19 46 1<br />
@@ -222,12 +222,9 @@ Output<br />
 63 24 3<br />
 
 
-                                                            
-                                                                                
-                                                                                
-                                                                                
-                                                                                
- 
+
+
+
                                    2          1                                 
                                                  3       1                      
                                    1  3  21 3       2                           
@@ -291,7 +288,8 @@ Output<br />
                               4                                                 
                         4       1                                               
                                       3                                         
-                              2                                                 
+                              2   
+-------------------------------------------------------------------------------
                                    1          1                                 
                                                  1       1                      
                                    1  1  11 1       1                           
@@ -355,7 +353,8 @@ Output<br />
                               3                                                 
                         3       3                                               
                                       3                                         
-                              3                                                                                                                         
+                              3                                                                                             
+-------------------------------------------------------------------------------
                                    1          1                                 
                                                  1       1                      
                                    1  1  11 1       1                           
